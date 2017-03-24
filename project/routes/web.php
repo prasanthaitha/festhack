@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/events','EventController@show');
+Route::post ('/citysearch','SearchController@search');
+Route::get('/reports/create','ReportController@create');
+Route::post('/reports','ReportController@store');
+Route::post('/rstatus','ReportController@search');
+
