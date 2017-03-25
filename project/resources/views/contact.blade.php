@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,9 +54,9 @@
                      <a href="/" class="brand-logo" style="color:white;">&emsp;Home</a>
                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                        <ul class="right hide-on-med-and-down">
-                        <li class="active"><a href="/about">About</a></li>
+                        <li style="font-size:20px"><a href="/about">About</a></li>
                            
-                       <li><a href="/contact">Contact us</a></li>
+                       <li style="font-size:20px;"><a href="/contact">Contact us</a></li>
                        
                         </ul>
                       
@@ -74,125 +73,39 @@
                </nav>
               <!-- navbar ends -->
         
-    <!-- Carousel starts -->          
-        <div class="container-fluid">
-                    
-                     <div class="slider">
-           
-            
-    <ul class="slides" style="height:540px;">
-      <li>
-        <img src="{{asset('/img/1.png')}}">
-       
-      </li>
-      <li>
-        <img src="{{asset('/img/2.png')}}">
-        <div class="caption right-align">
-         
-         
-        </div>
-      </li>
-        <li>
-        <img src="{{asset('/img/3.jpg')}}">
-        <div class="caption left-align">
-          
-          
-        </div>
-      </li>
-        <li>
-        <img src="{{asset('/img/4.jpg')}}">
-        <div class="caption left-align">
-        
-            
-        </div>
-      </li>
-       
-  </ul>
-             
-</div>
-              </div>
-    
-        <!-- Carousel end -->
-       
-    <!-- search end -->
-        
-        <div class="container">
-        
-            
-            <div class="col s12 m8">
-          <div class="card hoverable #f3e5f5 purple lighten-5">
-            <div class="card-content black-text">
-              <span class="card-title" style="color:gray;">Report Your Problem/Complaint</span>
-                 <div class="row">
-    <form class="col s12" action="/reports" method="post">
-    {{csrf_field()}}
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="pname" name="pname" type="text" class="validate">
-          <label for="first_name">Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="pmail" name="pmail" type="text" class="validate">
-          <label for="last_name">Email</label>
-        </div>
-        
-      </div>
-       <div class="row">
-       <div class="input-field col s6">
-          <input id="pmobile" type="text" name="pmobile" class="validate">
-          <label for="last_name">Mobile-no</label>
-        </div>
-        </div>
+               <div class="container">
+                   <div class="row">
+                    <div class="col m9 m9">
+                       <div class="card #f3e5f5 purple lighten-5">
+                           <div class="card-content black-text">
+                            <h3 style="color:lightblue;">Office of Joint Secretary (Sanitation)</h3>
+                               <p> Ministry of Drinking Water and Sanitation,</p>
+                               <p> Government of India,</p>
+                               <p> 4th Floor, Pt. Deendayal Antyodaya Bhawan (formerly, Paryavarn Bhawan),</p>
+                               <p>   CGO Complex, Lodhi Road,</p>
+                                  <p>  New Delhi - 110003.</p>
+               
+                           </div>
+                        </div>
+                    </div>
+                   </div>
+                       <div class="row">
+                       <div class="col m9 m9">
+                       <div class="card #f3e5f5 purple lighten-5">
+                           <div class="card-content black-text">
+                            <h3 style="color:lightblue;">Office of Director (Sanitation)</h3>
+                               <p>   Ministry of Drinking Water and Sanitation,</p>
+                               <p>   Government of India,</p>
+                                <p>    12th Floor, Pt. Deendayal Antyodaya Bhawan (formerly, Paryavarn Bhawan),</p>
+                           <p> CGO Complex, Lodhi Road,</p>
+                           <p> New Delhi - 110003.</p>
+                           </div>
+                        </div>
+                    </div>
+                   </div>
+                   </div>
 
-       <div class="row">
-        <div class="input-field col s5">
-          <input placeholder="name" id="city" type="text" name="city" class="validate">
-          <label for="first_name">City</label>
-        </div>
-
-
-        <div class="input-field col s5">
-          <input placeholder="name" id="state" type="text" name="state" class="validate">
-          <label for="first_name">State</label>
-        </div>
-       
-        <div class="input-field col s2">
-          <input id="last_name" type="text" name="zip" class="validate">
-          <label for="Zipcode">Zip code</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"  name="descr"></textarea>
-          <label for="textarea1">Complaint/Problem Description</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <textarea id="textarea1" name="suggest" class="materialize-textarea"></textarea>
-          <label for="textarea1">Suggestion</label>
-        </div>
-      </div>
-        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    
-  </button>
-    </form>
-  </div>
-            </div>
-          </div>
-        </div>
-            
-            
-        
-      </div>
-        
-       
-
-        
-        
-        <!-- footer -->
-        
-        <footer class="footer" style="background-color:darkgreen">
+                   <footer class="footer" style="background-color:darkgreen">
                         
                         <div class="container">
                     <div class="row">      
@@ -232,7 +145,7 @@
                  <div class="footer-copyright">
                      <div class="container">
                        © 2014 Copyright All right reserved - Government of India
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    
                    </div>
                </div>
         </footer>

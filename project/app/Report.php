@@ -18,3 +18,4 @@ class Report extends Model
 
 
 }}
+

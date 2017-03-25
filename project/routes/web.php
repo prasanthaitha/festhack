@@ -21,4 +21,14 @@ Route::post ('/citysearch','SearchController@search');
 Route::get('/reports/create','ReportController@create');
 Route::post('/reports','ReportController@store');
 Route::post('/rstatus','ReportController@search');
+Route::get('/about',function(){
+     return view('about'); });
+     Route::get('/details',function(){
+     return view('details');
+});
+      Route::get('/contact',function(){
+     return view('contact');
+ });
+
+
 

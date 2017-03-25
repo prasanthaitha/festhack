@@ -28,10 +28,11 @@ class ReportController extends Controller
             	]);
 
      
+      
    
        $a= \App\Person::all()->last()->peid;
     
-  
+       // return $a;
 
   	
 \App\Report::create([

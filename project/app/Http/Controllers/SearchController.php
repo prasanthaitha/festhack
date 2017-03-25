@@ -21,8 +21,8 @@ public function search(Request $request)
    $d=$place->pid;
    $events=Event::SearchByKeyword($d)->get(); 
    
-  
-  return view('search',compact('places','events'));
+  //return $events;
+ return view('search',compact('places','events'));
   
   //return $d;
   // $d1=$events[0]->descrip;
